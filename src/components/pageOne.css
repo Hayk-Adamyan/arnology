@@ -4,12 +4,15 @@ body{
 .main{
     background-color: #fafafa;
     font-family: 'Rubik', sans-serif;
+   
 
 }
 .body{
     max-width: 1376px;
     margin: 0 auto;
+    
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -455,6 +458,7 @@ button{
 .imgIcon{
     text-align: right;
 }
+
 .Rectangle {
    
     font-family: Rubik;
@@ -478,9 +482,10 @@ button{
 
 
 #menuToggle{
+    position: fixed;
     display: none;
-    position: relative;
-    top: 0;
+    
+    top: 60px;
     right: 50px;
     
     z-index: 1;
@@ -570,7 +575,7 @@ button{
     width: 100%;
     top: 0;
     left: 0;
-    bottom: 0;
+    /* bottom: 0; */
     right: 0;
     padding: 0;
     margin: 0;
@@ -617,7 +622,7 @@ margin: 50px;
   .btn22{
     width: 176px;
     height: 48px;
-    margin: 55px 145.9px 0 169.8px;
+    margin: 55px 145.9px 45px 169.8px;
     padding: 15px 18px 14px;
     border: solid 1px #03c4c7;
     background-color: black;
@@ -631,6 +636,7 @@ margin: 50px;
     display: block;
     z-index: 1;
 }
+.mob{display: none;}
 
 
 

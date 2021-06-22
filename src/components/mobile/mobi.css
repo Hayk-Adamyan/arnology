@@ -1,0 +1,134 @@
+@media (max-width:360px){
+    #menuToggle {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none
+        }
+
+    .mob{
+        display: block;
+        background-color: #09080d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .body{
+        display: none;
+    }
+    .black{
+        display: none;
+    }
+    ul li{
+        list-style: none;
+    }
+    .log{    
+        margin-top: 41px;
+        margin-bottom: 48px;
+        font-family: Rubik;
+        font-size: 19px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.95;
+        letter-spacing: 0.48px;
+        
+        /* color: #e5e7eb; */
+    }
+    .contakt h2{
+        margin-bottom: 20px;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: 0.22px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .contakt p{
+        
+        margin-bottom: 8px;
+        opacity: 0.65;
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.86;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .company h2{
+        margin-top: 32px;
+        margin-bottom: 20px;
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: 0.22px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .company ul li{
+       text-align: center;
+        opacity: 0.65;
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.86;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+       
+    }
+    .company ul{
+        padding: 0;
+    }
+
+    .company{
+        margin-bottom: 22px;
+        opacity: 1;
+        height: 260px;
+
+    }
+.lineTwo{
+    width: 328px;
+    height: 1px;
+    background-color: #ffffff;
+    opacity: 0.65;
+    margin-bottom: 24px;
+
+}
+.imgIconMob{
+    margin-bottom: 32px;
+}
+.imgIconMob img{
+  
+    margin-left: 16px;
+  
+}
+.divSpan{
+    margin-bottom: 15px;
+}
+.divSpan span{
+ 
+   
+    font-family: Rubik;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.17px;
+    color: #e5e7eb;
+}
+
+}

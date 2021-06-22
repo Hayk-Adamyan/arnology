@@ -1,51 +1,18 @@
 import { Routers } from "./Routers";
-
+import Mob from "./mobile/mobile";
+import MobMenu from "./mobile/mobMenu";
+import Menu from "./menu";
+import Nav from "./nav";
 export const PageOne = () => {
-  function menClick() {
-    document.getElementById("menu") &&
-      document.getElementById("menu").classList.toggle("active");
-  }
+
   return (
     <div className="main">
+      <Mob />
+      <MobMenu />
+      <Menu />
+      <Nav />
+
       <div className="body">
-        <div id="menu">
-          <div className="lef">
-            <div className="logo">
-              <img src="./img/arn_logo.png" />
-            </div>
-            <div className="icon_active">
-              <div className="imgIcon">
-                <img src="./img/fb.svg" />
-                <img src="./img/ins.svg" />
-                <img src="./img/lin.svg" />
-                <img src="./img/twt.svg" />
-                <img src="./img/github.svg" />
-              </div>
-            </div>
-          </div>
-          <div className="ri">
-            <ul>
-              <a href="#">
-                <li>ABOUT</li>
-              </a>
-              <a href="#">
-                <li>SERVICES</li>
-              </a>
-              <a href="#">
-                <li>WORKS</li>
-              </a>
-              <a href="#">
-                <li>CAREER</li>
-              </a>
-              <a href="https://erikterwan.com/" target="_blank">
-                <li>CONTACT</li>
-              </a>
-            </ul>
-            <div className="btn2">
-              <button className="btn22">Get an estimate</button>
-            </div>
-          </div>
-        </div>
         <header className="header">
           <div className="logo">
             <img src="./img/arn_logo.png" />
@@ -65,14 +32,6 @@ export const PageOne = () => {
               <button className="btn11">Get an estimate</button>
             </div>
           </div>
-          <nav role="navigation-mob">
-            <div id="menuToggle" onClick={() => menClick()}>
-              <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </nav>
         </header>
         <div className="estimate">
           <div className="left">
