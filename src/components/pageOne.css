@@ -16,6 +16,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 48px;
 }
 .navigation{
@@ -569,48 +570,21 @@ button{
     transform: rotate(-43deg) translate(0, 19px);
   }
   
-  #menu
-  {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    /* bottom: 0; */
-    right: 0;
-    padding: 0;
-    margin: 0;
-    display: none;
-   background-color: black;
-    -webkit-font-smoothing: antialiased;
-  }
+
   
-  #menu ul li
-  {
-    padding: 10px 0;
-    font-size: 16px;
-    list-style-type: none;
-    text-align: center;
-    margin: 8px 229.9px 16px 169.8px;
-    font-family: TrumpGothicEast;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.21;
-    letter-spacing: 0.96px;
-    text-align: left;
-    color: #ffffff;
-   
-  }
-  .lef{
+
+  /* .lef{
       display: flex;
-flex-direction: row;
+flex-direction: co;
+align-items: center;
 margin: 50px;
   }
   .ri{
+  
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+  } */
   .btn11{
     width: 176px;
     height: 48px;
@@ -619,14 +593,7 @@ margin: 50px;
     border: solid 1px #03c4c7;
   
   }
-  .btn22{
-    width: 176px;
-    height: 48px;
-    margin: 55px 145.9px 45px 169.8px;
-    padding: 15px 18px 14px;
-    border: solid 1px #03c4c7;
-    background-color: black;
-  }
+
   
   #menuToggle input:checked ~ ul
   {
