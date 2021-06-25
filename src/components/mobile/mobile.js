@@ -1,8 +1,4 @@
 function Mob() {
-  // function MobMenClick() {
-  //   document.getElementById("menu") &&
-  //     document.getElementById("Mobmenu").classList.toggle("active");
-  // }
   return (
     <div className="mob">
       <div className="log">

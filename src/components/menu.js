@@ -8,30 +8,23 @@ function Menu() {
           </div>
           <div className="ri">
             <ul>
-              <a href="#">
-                <li>ABOUT</li>
-              </a>
-              <a href="#">
-                <li>SERVICES</li>
-              </a>
-              <a href="#">
-                <li>WORKS</li>
-              </a>
-              <a href="#">
-                <li>CAREER</li>
-              </a>
-              <a href="https://erikterwan.com/" target="_blank">
-                <li>CONTACT</li>
-              </a>
+              <li>ABOUT</li>
+
+              <li>SERVICES</li>
+
+              <li>WORKS</li>
+
+              <li>CAREER</li>
+
+              <li>CONTACT</li>
             </ul>
-           
           </div>
         </div>
         <div className="am">
-              <span id="actSpan">EN</span>
-              <span>RU</span>
-              <span>HY</span>
-            </div>
+          <span id="actSpan">EN</span>
+          <span>RU</span>
+          <span>HY</span>
+        </div>
         <div className="icon_active">
           <div className="imgIcon">
             <img src="./img/fb.svg" />

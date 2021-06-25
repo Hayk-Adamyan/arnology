@@ -1,0 +1,1 @@
+import {Moredetails} from "./Moredetails"

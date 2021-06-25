@@ -3,7 +3,7 @@ import { PageOne } from "./../components/pageOne";
 export const Routers = () => {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <div className="ul">
           <ul className="list">
             <li>
@@ -17,7 +17,7 @@ export const Routers = () => {
             <li>Contact</li>
           </ul>
         </div>
-        {/* <header>
+        <header>
           <ul>
             <li>
               <NavLink
@@ -49,9 +49,9 @@ export const Routers = () => {
           >
             Contact
           </NavLink>
-        </header> */}
+        </header>
         <Route path="/" component={PageOne} />
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 };

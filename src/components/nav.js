@@ -1,13 +1,19 @@
-function Nav() {
-  function menClick() {
-    document.getElementById("menu") &&
-      document.getElementById("menu").classList.toggle("active");
-  }
+import React, { useState } from "react";
+
+const Nav = (props) => {
+  console.log(props)
+  const onClickHandler = () => {
+    props.onClickHandler(!isOpen);
+    setIsOpen(!isOpen);
+  };
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div>
       <nav role="navigation-mob">
-        <div id="menuToggle" onClick={() => menClick()}>
-          <input type="checkbox"/>
+        <div id="menuToggle" onClick={onClickHandler}>
+          <input type="checkbox" />
           <span></span>
           <span></span>
           <span></span>
@@ -15,5 +21,5 @@ function Nav() {
       </nav>
     </div>
   );
-}
+};
 export default Nav;
