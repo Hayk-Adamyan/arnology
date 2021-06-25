@@ -28,9 +28,9 @@ const App = () => {
       <Nav onClickHandler={burgerMenuClickHandler} />
       {!showMenu && <PageOne />}
 
-      {ShowForm && <Moredetails />}
+      {/* {ShowForm && <Moredetails />}
       <NextPage nextPage={MoredetailsClickHandler} />
-      {!ShowForm && <Project />}
+      {!ShowForm && <Project />} */}
     </div>
   );
 };
